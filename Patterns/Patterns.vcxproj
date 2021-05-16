@@ -142,20 +142,8 @@
     <ClCompile Include="Patterns.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Car.h" />
-    <ClInclude Include="CarPartsFactory.h" />
-    <ClInclude Include="DeutschCarPartsFactory.h" />
-    <ClInclude Include="DeutschVolkswagenFacility.h" />
-    <ClInclude Include="Engine.h" />
-    <ClInclude Include="Golf.h" />
-    <ClInclude Include="Paint.h" />
-    <ClInclude Include="Passat.h" />
-    <ClInclude Include="RussianCarPartsFactory.h" />
-    <ClInclude Include="RussianVolkswagenFacility.h" />
-    <ClInclude Include="Tiguan.h" />
-    <ClInclude Include="Touareg.h" />
-    <ClInclude Include="VolkswagenFacility.h" />
-    <ClInclude Include="Wheels.h" />
+    <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="Singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

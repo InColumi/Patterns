@@ -13,21 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Cars">
-      <UniqueIdentifier>{6c8eccfd-3e95-4ba1-8429-54b81762b4e2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Facilities">
-      <UniqueIdentifier>{65589648-d7cc-42e7-b9f3-18cfaffe16cb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\PartsFactory">
-      <UniqueIdentifier>{861d72a2-dd14-4b2c-a0ef-77e2fd26724b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Factory">
-      <UniqueIdentifier>{cc916241-0097-42a5-91e9-b86bf8695329}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Parts">
-      <UniqueIdentifier>{a39f71a2-7560-4dff-ba10-d8ecfe67d6ef}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Patterns.cpp">
@@ -35,47 +20,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Car.h">
-      <Filter>Header Files\Cars</Filter>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Golf.h">
-      <Filter>Header Files\Cars</Filter>
-    </ClInclude>
-    <ClInclude Include="Passat.h">
-      <Filter>Header Files\Cars</Filter>
-    </ClInclude>
-    <ClInclude Include="Tiguan.h">
-      <Filter>Header Files\Cars</Filter>
-    </ClInclude>
-    <ClInclude Include="Touareg.h">
-      <Filter>Header Files\Cars</Filter>
-    </ClInclude>
-    <ClInclude Include="DeutschVolkswagenFacility.h">
-      <Filter>Header Files\Facilities</Filter>
-    </ClInclude>
-    <ClInclude Include="RussianVolkswagenFacility.h">
-      <Filter>Header Files\Facilities</Filter>
-    </ClInclude>
-    <ClInclude Include="VolkswagenFacility.h">
-      <Filter>Header Files\Facilities</Filter>
-    </ClInclude>
-    <ClInclude Include="CarPartsFactory.h">
-      <Filter>Header Files\PartsFactory</Filter>
-    </ClInclude>
-    <ClInclude Include="DeutschCarPartsFactory.h">
-      <Filter>Header Files\PartsFactory</Filter>
-    </ClInclude>
-    <ClInclude Include="RussianCarPartsFactory.h">
-      <Filter>Header Files\PartsFactory</Filter>
-    </ClInclude>
-    <ClInclude Include="Engine.h">
-      <Filter>Header Files\Parts</Filter>
-    </ClInclude>
-    <ClInclude Include="Wheels.h">
-      <Filter>Header Files\Parts</Filter>
-    </ClInclude>
-    <ClInclude Include="Paint.h">
-      <Filter>Header Files\Parts</Filter>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
